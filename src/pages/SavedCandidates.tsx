@@ -6,8 +6,8 @@ const SavedCandidates = () => {
   return (
 <>
     <h1>Potential Candidates</h1>
-    {candidates[0] ? (
-    <div class='candidate'>
+    {candidates ? (
+    <div className='candidate'>
       <CandidateTable candidates={candidates}/>
     </div>)
       : (
