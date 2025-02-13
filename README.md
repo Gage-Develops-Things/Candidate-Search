@@ -9,7 +9,7 @@
 [License](#license)
 [Questions](#questions)
 
-##Description
+## Description
 Calls Github API to search/display user data, which the user may or may not decide to store in a Potential Candidates storage.
 
 ## Installation
@@ -28,5 +28,5 @@ n/a
 This application is covered under the MIT license.
 
 ## Questions
-You can find my github with the folowwing handle: [Gage-Develops-Things][https://github.com/Gage-Develops-Things]   
+You can find my github with the following handle: https://github.com/Gage-Develops-Things  
 
