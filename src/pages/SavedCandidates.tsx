@@ -6,7 +6,7 @@ const SavedCandidates = () => {
   return (
 <>
     <h1>Potential Candidates</h1>
-    {candidates.length ? (
+    {candidates && candidates.length ? (
     <div className='candidate'>
       <CandidateTable candidates={candidates}/>
     </div>)
