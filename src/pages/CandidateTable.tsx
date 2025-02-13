@@ -3,7 +3,7 @@ export default function CandidateTable(props:any){
   const deleteFromStorage = (candidateInfo: string) => {
     const filteredArray = props.candidates.filter((candidate: any) => candidate.login !== candidateInfo);
     localStorage.setItem('Saved Candidates', JSON.stringify(filteredArray));
-    location.reload();
+    props.setCandidates(filteredArray)
   };
 
     return (
