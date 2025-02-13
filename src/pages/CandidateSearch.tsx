@@ -47,7 +47,10 @@ const CandidateSearch = () => {
 
      // allow user to cycle thru candidates.  track which candidate we are showing.  
      // send candidate to saved array, increment index
+     
     const addCandidate = () =>{
+      let storage = localStorage.getItem('Saved Candidates')
+      let SavedCandidates: any = storage ? JSON.parse(storage) : []
       SavedCandidates.push(candidate)
       setIndex(index+1);
       localStorage.setItem('Saved Candidates', JSON.stringify(SavedCandidates));
@@ -73,5 +76,5 @@ const CandidateSearch = () => {
   );
 };
 
-   let SavedCandidates: any = [];
+
 export default CandidateSearch;
