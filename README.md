@@ -28,5 +28,5 @@ n/a
 This application is covered under the MIT license.
 
 ## Questions
-You can find my github with the following handle: [Gage-Develops-Things][https://github.com/Gage-Develops-Things]   
+You can find my github with the following handle: https://github.com/Gage-Develops-Things  
 
