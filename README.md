@@ -12,7 +12,7 @@
 ## Description
 Calls Github API to search/display user data, which the user may or may not decide to store in a Potential Candidates storage.
 Screenshot of website can be found here:
-(https://github.com/Gage-Develops-Things/Candidate-Search/blob/main/public/screenshot.png?raw=true)
+![image](https://github.com/Gage-Develops-Things/Candidate-Search/blob/main/public/screenshot.png?raw=true)
 
 ## Installation
 User can go to the live site at https://candidate-search-6hhn.onrender.com/
